@@ -1,0 +1,171 @@
+/* Importação da fonte Raleway do Google */
+"@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Formatação da fonte padrão a ser usada na página */
+* {
+font-family: 'Raleway', sans-serif;
+box-sizing: border-box;
+margin: 0;
+}
+/* Formatação do texto parágrafo */
+p {
+color: white;
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+unicode-bidi: isolate;
+}
+/* Cor de fundo do body */
+body {
+background-color: black;
+}
+/* ID do texto "transforme o mundo com a gente" pois só será usado uma vez*/
+#transform-world p {
+font-weight: 900;
+font-size: 2.5rem;
+text-transform: lowercase;
+max-width: 250px;
+text-shadow: 3px 2px #33A8DB;
+}
+/* classe "banner" com imagem ao fundo e um degrade linear */
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 60px;
+  border-bottom: 1px solid #33A8DB80;
+}
+/* classe "logo" para criar o círculo preto semi transparente por baixo do logo */
+.logo {
+background-color: rgba(0, 0, 0, .2);
+height: 260px;
+width: 260px;
+margin: auto;
+border-radius: 50%;
+padding: 16px;
+margin-bottom: 16px;
+}
+/* Classe "logo img" para formatar o tamanho e posição do logo */
+.logo img {
+margin: auto;
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+/* classe "banner-content"  */
+.banner-content {
+color: white;
+width: 600px;
+margin: auto;
+text-align: center;
+}
+/* classe h1 do banner */
+.banner h1 {
+font-family: 'Raleway', sans-serif;
+font-size: 2.5rem;
+font-weight: 900;
+text-transform: uppercase;
+color: transparent;
+background: -webkit-linear-gradient(#33A8DB, #1472B7);
+background-clip: text;
+-webkit-background-clip: text;
+}
+/* classe para o texto parágrafo do banner */
+.banner p {
+font-family: 'Raleway', sans-serif;
+font-size: 1.25rem;
+margin: 16px 0 24px;
+}
+/* classe "banner-content button" para o botão do banner */
+.banner-content button {
+color: #31A8DD;
+font-size: 1rem;
+font-weight: bold;
+padding: 16px 32px;
+text-transform: uppercase;
+letter-spacing: 4px;
+background-color: transparent;
+border-image: linear-gradient(#3BA1CD, #1572B7);
+border-image-slice: 10;
+border-radius: 30px;
+}
+/* elemento section que será usado várias vezes no html */
+section {
+margin: 100px auto;
+}
+/* id "course-content" para abrigar o conteúdo do curso */
+#course-content {
+width: 800px;
+text-align: center;
+}
+/* id course-content h2 para formatar o segundo título da página */
+#course-content h2 {
+  font-size: 2rem; 
+  color: #33A8DB; 
+  font-weight: bold;
+  letter-spacing: 4px; 
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+/* classe da lista de módulos do curso */
+.modules-list {
+  margin: 24px 0;
+}
+/* classe de cada módulo individual */
+.module {
+color: white;
+width: 530px;
+margin: 0 auto 24px;
+border: 1px solid #33A8DB;
+background-color: #252525;
+padding: 16px;
+border-radius: 100px;
+box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+/* id do texto "transforme o mundo com a gente" */
+#transform-world {
+  height: 560px;
+  background-size: cover;
+  background-image: url("../images/woman-code.png");
+  background-attachment: fixed;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+  padding: 200px;
+}
+/* id do texto "Junte-se ao ecosistema..." */
+#professional-challenges {
+text-align: center;
+width: 800px;
+}
+/* id da imagem do texto "Junte-se ao ecossistema" */
+#professional-challenges img {
+margin: 32px 0;
+}
+/* Elemento rodapé */
+footer {
+padding: 60px 0;
+text-align: center;
+background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+border-top: 1px solid #33A8DB80;
+}
+/* classe do logo do rodapé */
+.dio-logo {
+width: 300px;
+}
+/* elemento de formatação de hyperlink do rodapé */
+footer a {
+color: #33A8DB;
+font-weight: bold;
+text-decoration: none;
+}
+
+/* Codado por Leonardo Sabino,
+Comentários Gerais: */
+
+/* O código está bem comentado, explicando a função de cada seção e classe/ID. Isso é uma ótima prática para manutenção e colaboração.
+A fonte Raleway do Google Fonts está sendo importada corretamente.
+O uso do seletor universal (*) para definir font-family, box-sizing e remover margens padrão é uma abordagem comum para normalizar o estilo. */
